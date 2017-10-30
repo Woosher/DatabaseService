@@ -1,6 +1,5 @@
 package models;
 
-import org.codehaus.jackson.annotate.*;
 import org.ektorp.support.CouchDbDocument;
 
 public class Product extends CouchDbDocument{
