@@ -9,31 +9,46 @@ public class Product extends CouchDbDocument{
 
     private String _rev;
 
-    private String description, picture_url, brand, model, price;
+    private String long_description, short_description, type, picture_url, brand, model, price;
 
-
-    public String getId() {
+    public String get_id() {
         return _id;
     }
 
-    public void setId(String id) {
-        this._id = id;
+    public void set_id(String _id) {
+        this._id = _id;
     }
 
-    public String getRevision() {
+    public String get_rev() {
         return _rev;
     }
 
-    public void setRevision(String revision) {
-        this._rev = revision;
+    public void set_rev(String _rev) {
+        this._rev = _rev;
     }
 
-    public String getDescription() {
-        return description;
+    public String getLong_description() {
+        return long_description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setLong_description(String long_description) {
+        this.long_description = long_description;
+    }
+
+    public String getShort_description() {
+        return short_description;
+    }
+
+    public void setShort_description(String short_description) {
+        this.short_description = short_description;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public String getPicture_url() {
