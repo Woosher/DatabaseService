@@ -33,6 +33,7 @@ public class Controller {
         return prod;
     }
 
+
     @RequestMapping(value = "/product", method = POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Product> addProduct(@RequestBody String resource) {
         ObjectMapper mapper = new ObjectMapper();
