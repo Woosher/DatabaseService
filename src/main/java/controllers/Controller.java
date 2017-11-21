@@ -22,7 +22,7 @@ public class Controller {
     ProductDB productDB = new ProductDB(productConnection.getDb());
 
     @RequestMapping(value = "/product", method = GET)
-    public Product getProduct(@RequestParam(value="id", defaultValue="lol") String id) {
+    public Product getProduct(@RequestParam(value="id", defaultValue="default") String id) {
         Product prod = productDB.get(id);
         return prod;
     }

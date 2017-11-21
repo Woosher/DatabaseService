@@ -21,7 +21,7 @@
         <!-- https://mvnrepository.com/artifact/org.ektorp/org.ektorp -->
         <dependency>
             <groupId>org.ektorp</groupId>
-            <artifactId>org.ektorp.spring</artifactId>
+            <artifactId>org.ektorp</artifactId>
             <version>1.5.0</version>
         </dependency>
         <dependency>
